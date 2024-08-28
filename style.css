@@ -108,7 +108,22 @@ nav{
 .menu .tag{
     align-self: center;
 }
+.tag:hover{
+    cursor: pointer;
+}
 .grid-image{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.grid-image1{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.grid-image7{
     border-radius: 10px;
     transition: 0.2s ease-in-out;
     width: 100%;
@@ -117,6 +132,14 @@ nav{
 .grid-image:hover{
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
+}
+.grid-image1:hover{
+    transform: scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+.grid-image7:hover{
+    transform: scale(1.03);
+    transition: 0.2 ease-in-out;
 }
 .grid{
     display: grid;
